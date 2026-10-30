@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+.next/
+
+# Local Env Variables
+.env
+.env.local
+.env.*.local
+
+# IDE & OS Files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# System files (if they somehow got in here)
+.profile
+.zshrc
+.zprofile
+.gitconfig
+.gitmodules
+
+# AI / Local Tool configs
+.claude/
+CLAUDE.md
+AGENTS.md
+.mcp.json
+.ripgreprc

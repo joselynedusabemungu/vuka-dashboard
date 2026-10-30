@@ -1,0 +1,64 @@
+.cardFrame {
+  background-color: #ffffff;
+  border: 2px solid #072540;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 220px;
+}
+
+.infoBlock {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .infoBlock {
+    text-align: left;
+  }
+}
+
+.cardTitle {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #072540;
+}
+
+.streakLine {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+@media (min-width: 768px) {
+  .streakLine {
+    justify-content: flex-start;
+  }
+}
+
+.emojiIcon {
+  font-size: 1.875rem;
+}
+
+.countValue {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: #072540;
+}
+
+.timelineRow {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  border-top: 1px solid #e2e8f0;
+  padding-top: 1rem;
+}
+
+.dayLabel {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #072540;
+}

@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+:root {
+  --vuka-white: #ffffff;
+  --vuka-blue-dark: #072540;
+  --vuka-green: #009450;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  font-family: var(--font-nunito), Arial, sans-serif;
+  background: #ffffff;
+  color: #072540;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+.btn-primary {
+  @apply flex items-center justify-center gap-2 rounded-xl bg-[#009450] px-6 py-3 text-sm font-bold text-white shadow-sm transition-all hover:bg-[#007a41] active:scale-95 disabled:bg-slate-300 disabled:active:scale-100;
+}
+
+.btn-secondary {
+  @apply flex items-center justify-center gap-2 rounded-xl border border-slate-200 bg-white px-6 py-3 text-sm font-bold text-[#072540] shadow-sm transition-all hover:bg-slate-50 active:scale-95 disabled:opacity-50;
+}

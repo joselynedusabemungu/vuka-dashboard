@@ -1,0 +1,78 @@
+.cardFrame {
+  background-color: #ffffff;
+  border: 2px solid #072540;
+  border-radius: 1rem;
+  padding: 1.5rem;
+}
+
+.cardTitle {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #072540;
+  margin-bottom: 1rem;
+}
+
+.tableList {
+  display: flex;
+  flex-direction: column;
+}
+
+.rowItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid #f1f5f9;
+  font-size: 0.875rem;
+}
+
+.emptyState {
+  min-height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 12px;
+  color: #072540;
+}
+
+.emptyState p {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.rowItem:last-child {
+  border-bottom-width: 0px;
+}
+
+.topicArea {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  width: 33.3333%;
+}
+
+.leadIcon {
+  color: #072540;
+}
+
+.titleText {
+  font-weight: 500;
+  color: #072540;
+}
+
+.dateField {
+  color: #072540;
+  width: 33.3333%;
+  text-align: left;
+}
+
+.scoreField {
+  font-weight: 600;
+  color: #072540;
+  width: 33.3333%;
+  text-align: right;
+}

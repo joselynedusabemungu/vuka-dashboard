@@ -1,0 +1,40 @@
+.cardFrame {
+  background-color: #ffffff;
+  border: 2px solid #072540;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 220px;
+}
+
+.cardTitle {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #072540;
+  margin-bottom: 1rem;
+}
+
+.chartBox {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 8rem;
+  height: 8rem;
+}
+
+.svgRing {
+  width: 100%;
+  height: 100%;
+  transform: rotate(-90deg);
+}
+
+.centerValue {
+  position: absolute;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #072540;
+}

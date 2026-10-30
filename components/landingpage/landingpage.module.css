@@ -1,0 +1,94 @@
+.heroContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  min-height: 100vh;
+  background-color: #fff7e4;
+}
+
+.leftColumn {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+.logoContainer {
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.logo {
+  width: 130px;
+  height: auto;
+}
+
+.title {
+  font-size: 2.8rem;
+  color: #072540;
+  line-height: 1.2;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.highlightText {
+  color: #009450;
+}
+
+.description {
+  font-size: 1.3rem;
+  color: #072540;
+  line-height: 1.6;
+  margin-bottom: 2.5rem;
+}
+
+.details {
+  margin-top: 10.5rem;
+}
+
+.ctaButton {
+  background-color: #00874e;
+  color: #ffffff;
+  border: none;
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 50px;
+  cursor: pointer;
+  align-self: flex-start;
+  transition: background-color 0.2s ease;
+}
+
+.ctaButton:hover {
+  background-color: #00663a;
+}
+
+.rightColumn {
+  position: relative;
+  width: 100%;
+  min-height: 400px;
+}
+
+.heroImage {
+  object-fit: cover;
+  object-position: right center;
+}
+
+@media (min-width: 768px) {
+  .heroContainer {
+    grid-template-columns: 45% 55%;
+  }
+
+  .leftColumn {
+    padding: 4rem 4rem 4rem 6rem;
+    margin: 0;
+    max-width: none;
+    justify-content: flex-start;
+  }
+
+  .logoContainer {
+    margin-bottom: 5rem;
+  }
+}
